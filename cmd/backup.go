@@ -49,7 +49,7 @@ func backupFunc(cmd *cobra.Command, args []string) error {
 					if err != nil {
 						return err
 					} else {
-						enc, err := util.Encrypt(password, nil, bf)
+						enc, err := util.Encrypt(password, bf)
 						if err != nil {
 							return err
 						} else {

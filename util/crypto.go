@@ -11,15 +11,11 @@ import (
 )
 
 const (
-	defaultIterationCount = 100
-	keyLength             = 32
+	keyLength = 32
 )
 
-func Encrypt(password string, salt, data []byte) (string, error) {
-	if salt == nil {
-		salt = make([]byte, 8)
-		rand.Read(salt)
-	}
+func Encrypt(password string, data []byte) (string, error) {
+
 	key := computeKey(password)
 	block, err := aes.NewCipher(key)
 
