@@ -1,16 +1,24 @@
 # paper-vault
 
 
-## 🤔 paper-vault ?
+## 🤔 paper-vault à quoi ça sert ?
 
 Petit utilitaire perso pour stocker des secrets dans un QR Code en ayant pris soin au préalable de chiffrer le secret avec AES et en encodant le chiffré obtenu en base64. L'utilitaire est capable de déchiffrer soir directement à partir du QR Code soit de son contenu. 
-On peut normalement imprimer les QR Code sans devoir les cacher
 
-Inspiration similaire : https://github.com/mtraver/qrbak
+L'utilitaire peut etre utile notamment pour stocker les mots des wallets crypto si on ne souhaite pas passer par un soft.
+On peut normalement imprimer les QR Code sans devoir les cacher.
 
 
-Usage
-=====
+## AVERTISSEMENT / WARNING
+⚠️ Utilisation à vos risques et périls.
+Avertissement: A utiliser à vos risques et périls
+
+⚠️ Use at your own risk
+
+
+
+## Usage
+
 
 ``` 
 paper-vault is a cli tool to backup/reveal secret. 
