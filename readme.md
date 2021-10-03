@@ -6,7 +6,7 @@
 Petit utilitaire perso pour stocker des secrets dans un QR Code en ayant pris soin au préalable de chiffrer le secret avec AES et en encodant le chiffré obtenu en base64. L'utilitaire est capable de déchiffrer soir directement à partir du QR Code soit de son contenu. 
 On peut normalement imprimer les QR Code sans devoir les cacher
 
-Inspiration : https://github.com/mtraver/qrbak
+Inspiration similaire : https://github.com/mtraver/qrbak
 
 
 Usage
