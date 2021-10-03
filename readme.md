@@ -10,8 +10,7 @@ On peut normalement imprimer les QR Code sans devoir les cacher.
 
 
 ## AVERTISSEMENT / WARNING
-⚠️ Utilisation à vos risques et périls.
-Avertissement: A utiliser à vos risques et périls
+⚠️ Utilisation à vos risques et périls. 
 
 ⚠️ Use at your own risk
 
