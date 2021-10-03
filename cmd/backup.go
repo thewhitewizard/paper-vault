@@ -53,7 +53,6 @@ func backupFunc(cmd *cobra.Command, args []string) error {
 						if err != nil {
 							return err
 						} else {
-							fmt.Println(enc)
 							err := util.GenerateQR(secretFile, enc)
 							if err != nil {
 								return err

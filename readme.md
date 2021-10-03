@@ -40,3 +40,20 @@ Flags:
 
 Use "paper-vault [command] --help" for more information about a command.
 ```
+
+``` 
+ ╭─frederic@frederic in repo: paper-vault on  master [!?] via  v1.17.1 took 7s
+ ╰─λ echo  "mon super secret" > secret.txt
+
+ ╭─frederic@frederic in repo: paper-vault on  master [!?] via  v1.17.1 took 2ms
+ ╰─λ ./paper-vault backup -i secret.txt
+enter your strong password for AES: *************
+confirm password : *************
+backup done ! Remember to always remove secret file
+
+ ╭─frederic@frederic in repo: paper-vault on  master [!?] via  v1.17.1 took 13s
+ ╰─λ ./paper-vault reveal -i secret.txt.jpeg
+enter your strong password for AES: *************
+mon super secret
+
+```
