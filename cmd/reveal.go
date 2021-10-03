@@ -17,7 +17,7 @@ var (
 		Short:             DESC_REVEAL,
 		Long:              DESC_REVEAL,
 		RunE:              revealFunc,
-		Example:           "paper-vault reveal -i qr.png",
+		Example:           "paper-vault reveal -i qr.jpeg",
 		DisableAutoGenTag: false,
 	}
 )
